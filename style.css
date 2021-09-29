@@ -38,6 +38,6 @@ body {
 
 @media only screen and (max-width: 768px) {
     body {
-        height: 1050px;
+        height: 800px;
     }
 }
