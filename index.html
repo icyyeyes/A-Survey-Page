@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Survey Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Sweetlicious Survey Form</h1>
+    <p id="description">We are very happy to sweeten your teeth! Now we want to see how happy you are? So let's begin...</p>
+    <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name: </label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+        </div>
+          <div class="form-group">
+          <label id="email-label" for="email">E-mail: </label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Total no. of products: </label>
+          <input type="number" id="number" name="number" placeholder="Enter your number" min="1" max="50" required/>
+        </div>
+        <div class="form-group">
+          <p>Your product was</p>
+          <select id="dropdown" name="product" required>
+            <option disbled selected value>Select the product</option>
+            <option value="pastry">Pastry</option>
+            <option value="donut">Donuts</option>
+            <option value="choco">Dark choclate</option>
+            <option value="puff">Cream puff</option>
+            <option value="sundae">Ice-cream sundae</option>
+            <option value="cake">Cake</option>
+            <option value="patties">Patties</option>
+            <option value="hotdog">Hot dog</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <p>Do you recommend SWEETLICIOUS to your friends and family?</p>
+          <label>
+            <input type="checkbox" name="recommendation" value="yes"/>Yes</label>
+          <label>
+            <br>
+            <input type="checkbox" name="recommendation" value="no"/>No</label>
+        </div>
+        
+        <div class="form-group">
+          <p>Are you happy with our service?</p>
+          <label>
+            <input type="radio" name="service" value="nice"/>It was very nice!</label>
+            <br>
+          <label>
+            <input type="radio" name="service" value="average"/>It was average.</label>
+          <br>
+          <label>
+            <input type="radio" name="service" value="poor"/>I don't like it. Improve your service!</label>
+        </div>
+       
+        <div class="form-group">
+          <label>
+            <p>Any Suggestions?</p></label>
+          <textarea id="text" name="suggestion" rows="3" cols="12"></textarea>
+            </div>
+         <div class="form-group">
+          <input type="submit" id="submit" name="submit"/></label>
+        </div>
+    </form>
+        <section class="note">
+          <h2>Thank You! Please Visit Again!☺</h2>
+</body>
+</html>

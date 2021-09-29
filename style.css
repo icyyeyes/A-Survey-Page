@@ -1,0 +1,43 @@
+body {
+    background-image: url("pastry2.jpg");
+    background-color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+*{
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    font-weight: bolder;
+  } 
+  #title{
+    font-size: 60px;
+    text-align: center;
+    color: #7B3F00;
+    font-style: italic;
+
+  }
+  #description{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-size: 17px;
+  }
+  
+  .form-group{
+    margin-bottom: 10px;
+    font-size: 21px;
+   
+  }
+  #submit{
+    background-color: #7B3F00;
+    color: white;
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+}
